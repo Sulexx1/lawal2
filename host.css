@@ -1,0 +1,60 @@
+*{
+				padding: 0;
+				margin: 0;
+}
+.house{
+			background: url('bg.jpg');
+			height: 500px;
+			width: 100%;
+			background-position: center;
+			background-size: cover;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+}
+
+.host{
+				color: white;
+				height: 50px;
+				width: 95%;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+}
+.list{
+				height: 100%;
+				width: 500px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+}
+.list >a{
+       text-decoration: none;
+				color: white;
+}
+.list >button{
+			background-color: transparent;
+			border: 2px solid white;
+			color: white;
+			width: 80px;
+}
+.content{
+				height: 450px;
+				width: 100%;
+			  color: white;
+			  display: flex;
+			  flex-direction: column;
+			  justify-content: center;
+			  align-items: center;
+}
+.btn1{
+				height: 30px;
+				width: 90px;
+}
+.btn2{
+				height: 30px;
+				width: 90px;
+				background-color: transparent;
+			  border: 2px solid white;
+			  color: white;
+}
